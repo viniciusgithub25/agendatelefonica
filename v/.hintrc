@@ -1,0 +1,24 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ]
+  }
+}
+
+/* 
+Esse código parece ser um arquivo de configuração usado em um projeto de desenvolvimento web. Aqui está uma explicação linha por linha:
+
+"extends": ["development"]: Esta linha indica que o arquivo está estendendo as configurações de um ambiente de desenvolvimento. Isso sugere que há outras configurações definidas para diferentes ambientes, como produção, teste, etc., e este arquivo está baseado nas configurações definidas para o ambiente de desenvolvimento.
+"hints": { ... }: Este bloco parece ser usado para definir algumas dicas ou sugestões específicas para o projeto.
+"axe/forms": [ ... ]: Aqui, parece que está sendo configurado algum tipo de sugestão relacionada a formulários usando uma ferramenta chamada "axe". O "axe" é uma ferramenta de acessibilidade que pode ser usada para identificar problemas de acessibilidade em páginas da web.
+["default", { "label": "off" }]: Este array parece estar configurando algumas opções para a sugestão relacionada aos formulários. A primeira entrada ("default") pode estar indicando que as configurações padrão devem ser usadas. A segunda entrada ({ "label": "off" }) parece estar desativando a verificação de acessibilidade relacionada aos rótulos dos formulários, o que significa que não serão fornecidas sugestões específicas para melhorar a acessibilidade dos rótulos dos formulários.
+Em resumo, este arquivo de configuração parece estender as configurações do ambiente de desenvolvimento e define algumas sugestões específicas relacionadas à acessibilidade dos formulários, desativando a verificação de rótulos dos formulários.
+
+*/
