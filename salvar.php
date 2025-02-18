@@ -6,7 +6,7 @@ $link = new mysqli("localhost", "root", "bd142536SQL$", "agenda_telefonica");
 if ($link){
     $query = mysqli_query($link, "insert into contato values(null, '$nome', '$telefone');");
     if($query){
-        header("Location: indexfiltropesquisa.php");
+        header("Location: index.php");
     } else {
         die("Erro:".mysqli_error($link));
     }
